@@ -1,0 +1,20 @@
+.card{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    float: none;
+    margin:0 auto;
+    margin-bottom: 10px;
+    margin-top:50px;
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+@media (max-width:991px){
+    .card{
+        width:80%;
+        flex-direction: column;
+    }
+}
